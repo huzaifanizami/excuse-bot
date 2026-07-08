@@ -1,9 +1,9 @@
 name: Excuse Bot
 
 on:
-  schedule:
-    - cron: '20 22 * * 1-5'
-  workflow_dispatch:
+ repository_dispatch:
+    types: [run-excuse-bot]
+ workflow_dispatch:
 
 jobs:
   run-excuse-bot:
