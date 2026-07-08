@@ -2,7 +2,7 @@ name: Excuse Bot
 
 on:
   schedule:
-    - cron: '06 22 * * 1-5'
+    - cron: '20 22 * * 1-5'
   workflow_dispatch:
 
 jobs:
